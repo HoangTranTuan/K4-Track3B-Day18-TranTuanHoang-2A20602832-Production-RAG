@@ -1,0 +1,91 @@
+{
+  "aggregate": {
+    "faithfulness": 0.775297619047619,
+    "answer_relevancy": 0.7313520683542111,
+    "context_precision": 0.8981481481106481,
+    "context_recall": 0.7575757575757575
+  },
+  "num_questions": 20,
+  "failures": [
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?",
+      "worst_metric": "faithfulness",
+      "score": 0.0,
+      "avg_score": 0.0,
+      "diagnosis": "LLM tự bịa câu trả lời ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm nhiệt độ (temperature) về 0"
+    },
+    {
+      "question": "Bảo hiểm sức khỏe PVI có hạn mức bao nhiêu cho nhân viên?",
+      "worst_metric": "faithfulness",
+      "score": 0.0,
+      "avg_score": 0.0,
+      "diagnosis": "LLM tự bịa câu trả lời ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm nhiệt độ (temperature) về 0"
+    },
+    {
+      "question": "Phụ cấp ăn trưa hàng tháng là bao nhiêu?",
+      "worst_metric": "answer_relevancy",
+      "score": 0.815625145463297,
+      "avg_score": 0.0,
+      "diagnosis": "Câu trả lời bị lệch trọng tâm câu hỏi",
+      "suggested_fix": "Viết lại prompt hướng dẫn mô hình trả lời trực tiếp hơn"
+    },
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày phép năm?",
+      "worst_metric": "faithfulness",
+      "score": 0.0,
+      "avg_score": 0.0,
+      "diagnosis": "LLM tự bịa câu trả lời ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm nhiệt độ (temperature) về 0"
+    },
+    {
+      "question": "Thâm niên bao nhiêu năm thì được cộng thêm ngày phép?",
+      "worst_metric": "faithfulness",
+      "score": 0.0,
+      "avg_score": 0.0,
+      "diagnosis": "LLM tự bịa câu trả lời ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm nhiệt độ (temperature) về 0"
+    },
+    {
+      "question": "Mật khẩu phải có tối thiểu bao nhiêu ký tự?",
+      "worst_metric": "answer_relevancy",
+      "score": 0.8298224465358692,
+      "avg_score": 0.0,
+      "diagnosis": "Câu trả lời bị lệch trọng tâm câu hỏi",
+      "suggested_fix": "Viết lại prompt hướng dẫn mô hình trả lời trực tiếp hơn"
+    },
+    {
+      "question": "Bao lâu phải đổi mật khẩu một lần?",
+      "worst_metric": "faithfulness",
+      "score": 0.0,
+      "avg_score": 0.0,
+      "diagnosis": "LLM tự bịa câu trả lời ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm nhiệt độ (temperature) về 0"
+    },
+    {
+      "question": "Có cần kích hoạt xác thực đa yếu tố (MFA) không?",
+      "worst_metric": "faithfulness",
+      "score": 0.0,
+      "avg_score": 0.0,
+      "diagnosis": "LLM tự bịa câu trả lời ngoài tài liệu",
+      "suggested_fix": "Thắt chặt system prompt, giảm nhiệt độ (temperature) về 0"
+    },
+    {
+      "question": "Nhân viên thử việc có được nghỉ phép năm không?",
+      "worst_metric": "answer_relevancy",
+      "score": 0.9999999999999998,
+      "avg_score": 0.0,
+      "diagnosis": "Câu trả lời bị lệch trọng tâm câu hỏi",
+      "suggested_fix": "Viết lại prompt hướng dẫn mô hình trả lời trực tiếp hơn"
+    },
+    {
+      "question": "Khi phát hiện malware trên máy, nhân viên có nên tự xử lý không?",
+      "worst_metric": "answer_relevancy",
+      "score": 0.9642238841645715,
+      "avg_score": 0.0,
+      "diagnosis": "Câu trả lời bị lệch trọng tâm câu hỏi",
+      "suggested_fix": "Viết lại prompt hướng dẫn mô hình trả lời trực tiếp hơn"
+    }
+  ]
+}
